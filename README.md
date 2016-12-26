@@ -14,6 +14,7 @@ __Reference to Tools__
      * [`stegsolve.jar`][Stegsolve]
      * [Steghide]
      * [Hipshot] ... [Python] module to get long-exposure image from a video
+     * [Detect DTMF Tones] ... to decode dial tones from phones
 * __Reversing/Disassembly__
      * [IDA Pro]
      * [Hopper] __... we have this bought and downabled in [`misc`](misc/)__
@@ -88,6 +89,9 @@ __Reference to Tools__
     - [`dnspy`][dnspy] .. to reverse engineer and decompile [.NET] binaries
     - [CFF Explorer] .. metadata editor for Windows executables
     - [dotPeek] .. another [.NET] decompiler
+* __Cryptography__
+    - [`extract_pubkey.sh`](extract_pubkey.sh) ... Extract `e` and `n` from RSA public key
+    
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
 [Wikipedia]: https://www.wikipedia.org/
@@ -457,3 +461,4 @@ __Reference to Tools__
 [.NET Framework]: https://en.wikipedia.org/wiki/.NET_Framework
 [CFF Explorer]: http://www.ntcore.com/exsuite.php
 [dotPeek]: https://www.jetbrains.com/decompiler/
+[Detect DTMF Tones]: http://dialabc.com/sound/detect/index.html
