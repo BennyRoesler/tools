@@ -76,6 +76,18 @@ __Reference to Tools__
 * __[Android][Android] [APK]__
     * [Android APK Decompiler](http://www.decompileandroid.com/)
     * [`jadx`][jadx]
+* __Behavioral Analysis__
+    * Process Hacker
+    * Process Monitor
+    * Regshot
+    * ProcDOT
+    * Noriben
+    * Capture BAT
+    * fakedns
+* __Windows Executable Reversing__
+    - [`dnspy`][dnspy] .. to reverse engineer and decompile [.NET] binaries
+    - [CFF Explorer] .. metadata editor for Windows executables
+    - [dotPeek] .. another [.NET] decompiler
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
 [Wikipedia]: https://www.wikipedia.org/
@@ -440,3 +452,8 @@ __Reference to Tools__
 [flac]: https://en.wikipedia.org/wiki/FLAC
 [Sonic Visualiser]: http://www.sonicvisualiser.org/
 [spectrogram]: https://en.wikipedia.org/wiki/Spectrogram
+[dnspy]: https://github.com/0xd4d/dnSpy
+[.NET]: https://en.wikipedia.org/wiki/.NET_Framework
+[.NET Framework]: https://en.wikipedia.org/wiki/.NET_Framework
+[CFF Explorer]: http://www.ntcore.com/exsuite.php
+[dotPeek]: https://www.jetbrains.com/decompiler/
