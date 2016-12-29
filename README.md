@@ -63,6 +63,7 @@ __Reference to Tools__
      * [Volatility] ... for memory files like `.vmss` or `.vdi`
      * [Autopsy] ... for disk image files like `.img`
      * [`binwalk`][binwalk]
+     * [`hachoir-subfile`][hachoir-subfile] ... subfiles in any binary stream, like [`binwalk`][binwalk] or [`foremost`][foremost]
 * __Host Based Forensics__
     - `ewfmount` .. encase/expert witness format
     - `mount` ... to mount a drive
@@ -464,3 +465,4 @@ __Reference to Tools__
 [dotPeek]: https://www.jetbrains.com/decompiler/
 [Detect DTMF Tones]: http://dialabc.com/sound/detect/index.html
 [zsteg]: https://github.com/zed-0xff/zsteg
+[hachoir-subfile]: https://bitbucket.org/haypo/hachoir/wiki/hachoir-subfile
