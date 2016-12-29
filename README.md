@@ -15,6 +15,7 @@ __Reference to Tools__
      * [Steghide]
      * [Hipshot] ... [Python] module to get long-exposure image from a video
      * [Detect DTMF Tones] ... to decode dial tones from phones
+     * [`zsteg`][zsteg] ... detect stegano-hidden and LSB data in PNG & BMP
 * __Reversing/Disassembly__
      * [IDA Pro]
      * [Hopper] __... we have this bought and downabled in [`misc`](misc/)__
@@ -462,3 +463,4 @@ __Reference to Tools__
 [CFF Explorer]: http://www.ntcore.com/exsuite.php
 [dotPeek]: https://www.jetbrains.com/decompiler/
 [Detect DTMF Tones]: http://dialabc.com/sound/detect/index.html
+[zsteg]: https://github.com/zed-0xff/zsteg
