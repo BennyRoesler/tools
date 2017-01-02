@@ -2,7 +2,7 @@
 # @Author: John Hammond
 # @Date:   2016-12-25 23:20:21
 # @Last Modified by:   John Hammond
-# @Last Modified time: 2016-12-25 23:20:21
+# @Last Modified time: 2017-01-01 20:24:59
 
 
 RED=`tput setaf 1`
@@ -20,13 +20,13 @@ else
 	modulus=$(echo $full_output | grep -oE "Modulus(.*?)Exponent")
 	modulus=${modulus/Modulus: }
 	modulus=${modulus/Exponent}
-	modulus=$(echo $modulus | tr -d " " | tr -d ":")
+	modulus=$(echo $modulus | tr -d " " | tr -d ":" | cut -d "(" -f2| cut -d ")" -f1)
 
 	modulus=`python -c "print int(\"$modulus\",16)"`
 
 	exponent=$(echo $full_output | grep -oE "Exponent(.*)")
 	exponent=${exponent/Exponent}
-	exponent=$(echo $exponent | tr -d " " | tr -d ":")
+	exponent=$(echo $exponent | tr -d " " | tr -d ":" | cut -d "(" -f2| cut -d ")" -f1)
 
 	exponent=`python -c "print int(\"$exponent\",16)"`
 
