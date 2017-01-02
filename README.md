@@ -16,6 +16,7 @@ __Reference to Tools__
      * [Hipshot] ... [Python] module to get long-exposure image from a video
      * [Detect DTMF Tones] ... to decode dial tones from phones
      * [`zsteg`][zsteg] ... detect stegano-hidden and LSB data in PNG & BMP
+     * [Image Steganography] ... to create Stegsolve challenges
 * __Reversing/Disassembly__
      * [IDA Pro]
      * [Hopper] __... we have this bought and downabled in [`misc`](misc/)__
@@ -93,6 +94,7 @@ __Reference to Tools__
     - [dotPeek] .. another [.NET] decompiler
 * __Cryptography__
     - [`extract_pubkey.sh`](extract_pubkey.sh) ... Extract `e` and `n` from RSA public key
+    - [Vignere Solver](https://www.guballa.de/vigenere-solver) ... breaks Vigenère ciphers without knowing the key. 
     
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
@@ -466,3 +468,4 @@ __Reference to Tools__
 [Detect DTMF Tones]: http://dialabc.com/sound/detect/index.html
 [zsteg]: https://github.com/zed-0xff/zsteg
 [hachoir-subfile]: https://bitbucket.org/haypo/hachoir/wiki/hachoir-subfile
+[Image Steganography]: http://incoherency.co.uk/image-steganography/
