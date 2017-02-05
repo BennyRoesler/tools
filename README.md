@@ -17,6 +17,7 @@ __Reference to Tools__
      * [Detect DTMF Tones] ... to decode dial tones from phones
      * [`zsteg`][zsteg] ... detect stegano-hidden and LSB data in PNG & BMP
      * [Image Steganography] ... to create Stegsolve challenges
+     * [Whitespace](http://ws2js.luilak.net/interpreter.html) ... a whitespace interpreter
 * __Reversing/Disassembly__
      * [IDA Pro]
      * [Hopper] __... we have this bought and downabled in [`misc`](misc/)__
