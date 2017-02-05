@@ -8,7 +8,7 @@ __Reference to Tools__
 =========
 
 * __Audio Files ([`.wav`][wav], [`.flac`][flac], etc..)__
-    - Julian's [MATLAB] code for Least Significant Bit
+    - [Julian's MATLAB] code for Least Significant Bit](julians_audio_lsb.m)
     - [Sonic Visualiser]... to easily view the [spectrogram] of an audio file
 * __Steganography__
      * [`stegsolve.jar`][Stegsolve]
