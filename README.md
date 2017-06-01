@@ -48,8 +48,9 @@ __Reference to Tools__
 * __Encryption__
      * [VBScript Decoder]
      * [`xortool`][xortool]
-     * [quipqiup.com]
+     * [quipqiup.com] .. for substitution ciphers
      * [factordb.com]
+     * [PlayFair Cipher Cracker][http://bionsgadgets.appspot.com/ww_forms/playfair_ph_web_worker3.html]
 * __Metadata__
      * [EXIFTool]
 * __Password Cracking__
