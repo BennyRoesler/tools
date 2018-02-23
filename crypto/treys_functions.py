@@ -7,6 +7,15 @@ def multiples(a, b):
         y, x = multiples(b % a, a)
         return (x - (b // a) * y, y)
 
+def root3rd(x):
+    y, y1 = None, 2
+    while y!=y1:
+        y = y1
+        y3 = y**3
+        d = (2*y3+x)
+        y1 = (y*(y3+2*x)+d//2)//d
+    return y 
+
 def modinv(n, mod):
 	#input: a number and it's modulus
 	#output: the modular inverse
