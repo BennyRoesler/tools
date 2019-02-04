@@ -97,9 +97,12 @@ __Reference to Tools__
     - [dotPeek] .. another [.NET] decompiler
 * __Cryptography__
     - [`extract_pubkey.sh`](extract_pubkey.sh) ... Extract `e` and `n` from RSA public key
-    - [Vignere Solver](https://www.guballa.de/vigenere-solver) ... breaks Vigenère ciphers without knowing the key. 
+    - [Vignere Solver](https://www.guballa.de/vigenere-solver) ... breaks Vigenère ciphers without knowing the key.
+* __Helpers
+    - [KaliLiveBootAssistant] ... Rich's Live-boot assistant. This shell script will quickly create persistent Kali live boots.
     
 
+[KaliLiveBootAssistant]: https://gist.github.com/CyberDentist/9017e04bc274fa88c34963f7d1b517fd
 [netcat]: https://en.wikipedia.org/wiki/Netcat
 [Wikipedia]: https://www.wikipedia.org/
 [Linux]: https://www.linux.com/
