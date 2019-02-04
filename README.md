@@ -98,7 +98,7 @@ __Reference to Tools__
 * __Cryptography__
     - [`extract_pubkey.sh`](extract_pubkey.sh) ... Extract `e` and `n` from RSA public key
     - [Vignere Solver](https://www.guballa.de/vigenere-solver) ... breaks Vigenère ciphers without knowing the key.
-* __Helpers
+* __Helpers__
     - [KaliLiveBootAssistant] ... Rich's Live-boot assistant. This shell script will quickly create persistent Kali live boots.
     
 
